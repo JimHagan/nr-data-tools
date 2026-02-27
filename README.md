@@ -42,7 +42,7 @@ Managing data at scale requires visibility into attribute diversity and ingest v
 
 ### Telemetry Sample Extractor UI
 * **Source:** [NR Telemetry Sampler UI](https://github.com/JimHagan/nr-telemetry-sample-extractor)
-* **Capabilities:** A visual interface to define sampling strategies for logs and events. It is particularly effective for high-diversity data where you need a representative raw sample without manual NRQL exporting.
+* **Capabilities:** A visual interface to setup a sample extraction porcess for analysis.  It was created with Logs in mind, but can work with other MELT types. It is particularly effective for high-diversity log data where you need a representative raw sample.
 * **Export:** Supports JSON and CSV formats for downstream processing.
 
 ### Telemetry Attribute Analyzer (CLI)
