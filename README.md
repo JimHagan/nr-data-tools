@@ -47,3 +47,23 @@ Managing data at scale requires visibility into attribute diversity and ingest v
 
 ### Telemetry Attribute Analyzer (CLI)
 * **Source:** [NR Telemetry Analyzer](https://github.com/JimHagan/telemetry-attribute-analyzer)
+* **Capabilities:** A high-performance CLI program that processes CSV/JSON telemetry data to output summaries of:
+    * **Attribute Cardinality:** Identify "high-cardinality" attributes that impact costs and performance.
+    * **Data Volume:** Pinpoint exactly which attributes or services are driving ingest.
+    * **Anomaly Analysis:** Detect unexpected spikes or patterns in data structure.
+
+> **Companion Resources:** These tools provide the "why" behind the "what" found in the [Data Ingest Baseline Dashboard](https://onenr.io/0BQ19gmVlQx) and the [Data Ingest Breakdown Dashboard](https://onenr.io/0gR79Xl70Qo).
+
+---
+
+## Getting Started
+
+Because the **New Relic Data Toolkit** is a loosely coupled suite, you can implement the tools individually based on your current needs. 
+
+1.  **Clone the relevant repository** from the links above.
+2.  **Review the local README** in each repo for specific installation requirements (e.g., Python, Node.js, or Docker) and authentication steps.
+3.  **Configure your New Relic API Keys** (usually requires a User API Key or Ingest Key depending on the tool).
+
+## Disclaimer
+
+This toolkit was created as a personal research project to aid in undertanding of the structure of New Relic telemetry.  It should not be used in a production environments.  All tools are readonly and should only be used for research purposes on your own New Relic account.  This toolkit is not a New Relic product.
