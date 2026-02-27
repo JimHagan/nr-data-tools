@@ -22,7 +22,12 @@ Understanding exactly what is being monitored across multiple accounts is the fo
 
 > **Pro Tip:** This CLI is a great companion to the [New Relic Entity Explorer](https://docs.newrelic.com/docs/new-relic-solutions/new-relic-one/core-concepts/new-relic-explorer-view-performance-across-apps-services-hosts/), providing the raw data needed for custom reporting that the UI cannot export.
 
+### Useful AI Prompts
+Copy and paste this prompt into an LLM (like ChatGPT, Claude, or Gemini) along with your tool output:
+> "Please review the `entities_[accountid].txt` file and generate a breakdown of the counts of various entity types. In addition, use tags and metadata to find the most common tagging schema. Identify inconsistencies in naming and also evaluate the completeness of critical tags. For example, if there is a 'team' tag, give me a statistical breakdown of its overall completeness by entity. In addition, for entity types with 'nr.slo*' attributes, give me an overall compliance rate and identify any recommendations for improvements in the naming and configuration of those."
+
 ---
+
 
 ## 2. Alert Analyzer
 
@@ -33,6 +38,10 @@ A mature observability practice is defined by high-signal, low-noise alerting. T
 * **Best Used For:** Alert rationalization projects and improving the Signal-to-Noise Ratio (SNR) of your monitoring.
 
 > **Companion Resources:** Use this tool alongside the [Alert Quality Management Dashboard](https://onenr.io/0MR29lo7pwY) and the [AQM App](https://onenr.io/02wdylpboRE) to drive a data-driven approach to incident management.
+
+### Useful AI Prompts
+Copy and paste this prompt into an LLM along with your tool output:
+> "Evaluate the `incident_summary.txt` files and provide some insights as to the overall 'flappiness' of these alerts. Indicate where there are opportunities for naming improvements and identify scenarios where the same general condition is present in multiple policies. Also, looking at the 'Incidents By Day' section, give me a sense if there are any temporal patterns by days in this sample. Finally, evaluate the 'RELATED ENTITY ANALYSIS' section to see if there are any unusual patterns by entity."
 
 ---
 
@@ -53,6 +62,10 @@ Managing data at scale requires visibility into attribute diversity and ingest v
     * **Anomaly Analysis:** Detect unexpected spikes or patterns in data structure.
 
 > **Companion Resources:** These tools provide the "why" behind the "what" found in the [Data Ingest Baseline Dashboard](https://onenr.io/0BQ19gmVlQx) and the [Data Ingest Breakdown Dashboard](https://onenr.io/0gR79Xl70Qo).
+
+### Useful AI Prompts
+Copy and paste this prompt into an LLM along with your `output.MD` file:
+> "As an expert-level Site Reliability Engineer (SRE) and FinOps (Cloud Cost) analyst, your job is to analyze a statistical summary from a log sample and provide a natural language summary. First, describe the infrastructure and application stack you can infer from the attributes. Second, identify specific, actionable anomalies related to cost, performance, or security. Cite the log evidence (e.g., messages, attributes) from the summary in your analysis. Format your response in clean markdown."
 
 ---
 
