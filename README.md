@@ -16,7 +16,7 @@ Modern observability requires more than just collecting data; it requires high-q
 
 Understanding exactly what is being monitored across multiple accounts is the foundation of observability maturity. This tool provides a deep dive into the tags and metadata associated with your entities.
 
-* **Tool:** [NR Entity Fetcher](https://github.com/JimHagan/fetch_entities)
+* **Tool:** [NR Entity Fetcher](https://github.com/JimHagan/nr-fetch-entities)
 * **Purpose:** Programmatically extract a complete inventory of entities, including detailed tag information and metadata that is often difficult to export in bulk via the UI.
 * **Best Used For:** Governance audits, ensuring tagging compliance (e.g., `Environment`, `Owner`, `Team`), and preparing data for external CMDB synchronization.
 
