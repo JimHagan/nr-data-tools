@@ -16,7 +16,7 @@ Modern observability requires more than just collecting data; it requires high-q
 
 Understanding exactly what is being monitored across multiple accounts is the foundation of observability maturity. This tool provides a deep dive into the tags and metadata associated with your entities.
 
-* **Tool:** [NR Entity Fetcher](https://github.com/JimHagan/nr-fetch-entities)
+* **Tool:** [nr-fetch-entities](https://github.com/JimHagan/nr-fetch-entities)
 * **Purpose:** Programmatically extract a complete inventory of entities, including detailed tag information and metadata that is often difficult to export in bulk via the UI.
 * **Best Used For:** Governance audits, ensuring tagging compliance (e.g., `Environment`, `Owner`, `Team`), and preparing data for external CMDB synchronization.
 
@@ -28,7 +28,7 @@ Understanding exactly what is being monitored across multiple accounts is the fo
 
 A mature observability practice is defined by high-signal, low-noise alerting. The Alert Quality tools help identify redundant conditions and optimization opportunities.
 
-* **Tool:** [NR Alert Analyzer](https://github.com/JimHagan/nr-alert-analyzer)
+* **Tool:** [nr-alert-analyzer](https://github.com/JimHagan/nr-alert-analyzer)
 * **Purpose:** Analyzes existing alert conditions to identify redundancies, inefficiencies, and "noisy" configurations that lead to alert fatigue.
 * **Best Used For:** Alert rationalization projects and improving the Signal-to-Noise Ratio (SNR) of your monitoring.
 
@@ -41,12 +41,12 @@ A mature observability practice is defined by high-signal, low-noise alerting. T
 Managing data at scale requires visibility into attribute diversity and ingest volume. This two-part solution helps you sample raw data and perform deep cardinality analysis.
 
 ### Telemetry Sample Extractor UI
-* **Source:** [NR Telemetry Sampler UI](https://github.com/JimHagan/nr-telemetry-sample-extractor)
+* **Source:** [nr-telemetry-sample-extractor](https://github.com/JimHagan/nr-telemetry-sample-extractor)
 * **Capabilities:** A visual interface to setup a sample extraction porcess for analysis.  It was created with Logs in mind, but can work with other MELT types. It is particularly effective for high-diversity log data where you need a representative raw sample.
 * **Export:** Supports JSON and CSV formats for downstream processing.
 
 ### Telemetry Attribute Analyzer (CLI)
-* **Source:** [NR Telemetry Analyzer](https://github.com/JimHagan/nr-telemetry-analyzer)
+* **Source:** [nr-telemetry-analyzer](https://github.com/JimHagan/nr-telemetry-analyzer)
 * **Capabilities:** A high-performance CLI program that processes CSV/JSON telemetry data to output summaries of:
     * **Attribute Cardinality:** Identify "high-cardinality" attributes that impact costs and performance.
     * **Data Volume:** Pinpoint exactly which attributes or services are driving ingest.
