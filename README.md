@@ -41,7 +41,7 @@ A mature observability practice is defined by high-signal, low-noise alerting. T
 
 ### Useful AI Prompts
 Copy and paste this prompt into your company's approved LLM along with your tool output:
-> "Evaluate the `incident_summary.txt` files and provide some insights as to the overall 'flappiness' of these alerts. Indicate where there are opportunities for naming improvements and identify scenarios where the same general condition is present in multiple policies. Also, looking at the 'Incidents By Day' section, give me a sense if there are any temporal patterns by days in this sample. Finally, evaluate the 'RELATED ENTITY ANALYSIS' section to see if there are any unusual patterns by entity."
+> "Evaluate the `*_incident_summary.txt` and `*_incident_report.txt` files and provide some insights as to the overall 'flappiness' of these alerts. Indicate where there are opportunities for naming improvements and identify scenarios where the same general condition is present in multiple policies. Also, looking at the 'Incidents By Day' section, give me a sense if there are any temporal patterns by days in this sample. Finally, evaluate the 'RELATED ENTITY ANALYSIS' section to see if there are any unusual patterns by entity."
 
 ---
 
