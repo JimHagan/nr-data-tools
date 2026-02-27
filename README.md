@@ -41,7 +41,7 @@ A mature observability practice is defined by high-signal, low-noise alerting. T
 Managing data at scale requires visibility into attribute diversity and ingest volume. This two-part solution helps you sample raw data and perform deep cardinality analysis.
 
 ### Telemetry Analyzer UI
-* **Source:** [NR Telemetry Sampler UI](https://github.com/JimHagan/nr-telemetry-analyzer-UI)
+* **Source:** [NR Telemetry Sampler UI](https://github.com/JimHagan/nr-telemetry-sample-extractor)
 * **Capabilities:** A visual interface to define sampling strategies for logs and events. It is particularly effective for high-diversity data where you need a representative raw sample without manual NRQL exporting.
 * **Export:** Supports JSON and CSV formats for downstream processing.
 
