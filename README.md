@@ -1,6 +1,9 @@
 # New Relic Data Toolkit
 
+![Data Toolkit Logo](data-toolkit.png)
+
 The **New Relic Data Toolkit** is a collection of specialized, loosely coupled tools designed to help organizations assess, optimize, and scale their observability practices. By analyzing entity metadata, alert configurations, and telemetry ingest patterns, this toolkit provides a comprehensive view of your New Relic ecosystem beyond standard out-of-the-box dashboards.
+
 
 ## Overview
 
