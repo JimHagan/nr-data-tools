@@ -46,7 +46,7 @@ Managing data at scale requires visibility into attribute diversity and ingest v
 * **Export:** Supports JSON and CSV formats for downstream processing.
 
 ### Telemetry Attribute Analyzer (CLI)
-* **Source:** [NR Telemetry Analyzer](https://github.com/JimHagan/telemetry-attribute-analyzer)
+* **Source:** [NR Telemetry Analyzer](https://github.com/JimHagan/nr-telemetry-analyzer)
 * **Capabilities:** A high-performance CLI program that processes CSV/JSON telemetry data to output summaries of:
     * **Attribute Cardinality:** Identify "high-cardinality" attributes that impact costs and performance.
     * **Data Volume:** Pinpoint exactly which attributes or services are driving ingest.
